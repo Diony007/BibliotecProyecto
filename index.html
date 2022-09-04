@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+    <link rel="shortcut icon" href="images/logo dlada.png"
+    <br>
+    <title>Biblioteca DLADA</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+</head>
+<body class="p-3 m-0 border-0 bd-example">
+    <style>
+
+       
+body{
+            background:#eddbed;
+            background: linear-gradient( to right,#e7d6ee, #dbcae4)
+        }
+
+        .bg{
+            background-image: url(images/login\ dlada.png);
+            padding-top: 25rem;
+            background-position: top;
+            background-size: cover;
+        }
+        #Modal2{
+            background-color: rgb(224, 207, 227);
+        }
+
+
+        #Modal1{
+          background-color: rgb(224, 207, 227);
+        }
+
+      @media (min-width: 992px) {
+            .alto-100 {
+                height: 100vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container w-75  mt-5 rounded shadow">
+        <div class="row align-items-stretch">
+            <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded">
+                
+            </div>
+            <div class="col bg--gradient background-color: rgb(235, 200, 227); p-5 rounded-end">
+                <div class="text-end">
+                    <img src="images/logo-mision.png" alt="100px"; width="200px">
+                </div>
+
+                <h2 class="fw-bold text-center py-5">Administrador</h2>
+
+                <!-------LOGIN --------->
+                <form action="#">
+                    <div class="mb-4">
+                        <label for="email" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Ingrese su correo" >
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Ingrese su contraseña" >
+                    </div>
+                    <div class="mb-4">
+                    
+                    </div>
+                    <div class="d-grid">
+                        <a href="bienvenido_bibliotecario.html"button type="submit" class="btn btn-primary rounded-sm">Iniciar Sesión</a>
+                    </div>
+                    <br>
+                    
+                
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal">¿Olvidaste tu contraseña? 
+  </button>
+  
+  <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content"id="Modal1">
+        <div class="modal-header">
+          <h4 class="modal-title" id="ModalLabel">Recupera tu cuenta</h4> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="mb-3">
+                <label for="email" class="col-form-label">Ingresa tu correo electrónico:</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Crear cuenta nueva</button>
+    
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="max-width: 18rem;">
+      <div class="modal-dialog">
+        <div class="modal-content"id ="Modal2">
+          <div class="modal-header">
+            <h4 class="modal-title" id="modal-title">Registrarse</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleModal" class="col-form-label">Nombre:</label>
+                <input type="text" class="form-control" id="email">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="col-form-label">Email:</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="mb-3">
+                <label for="" class="col-form-label">Contraseña:</label>
+                <input type="password" class="form-control" id="email">
+              </div>
+              <div class="mb-3">
+                <label for="" class="col-form-label">Verificacion de contraseña</label>
+                <input type="password" class="form-control" id="email">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Enviar mensaje</button>
+          </div>
+          
+        </div>
+      </div>
+    </div> 
+   
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    
+</body>
+</html>
